@@ -1,0 +1,29 @@
+.reviews {
+    padding: 8rem 4rem;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.199);
+    margin-top: 3rem;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.review {
+    border: 1px solid grey;
+    width: 40%;
+    padding: .7rem 1rem;
+    margin: .5rem;
+    box-sizing: border-box;
+
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        height: 4rem;
+        width: 4rem;
+    }
+}
