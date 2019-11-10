@@ -2,7 +2,12 @@
     &__title {
         font-size: 3rem;
         color: white;
-       }
+
+        @include phone {  
+            margin: 23rem 0 0 0;
+            font-size: 2rem;
+        }
+    }
 }
 
 .email {
@@ -10,5 +15,9 @@
         color: #999;
         font-size: 2rem;
         text-align: center;
+
+        @include phone {
+            font-size: 1rem;
+        }
     }
 }

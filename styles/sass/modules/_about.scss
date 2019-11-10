@@ -9,10 +9,19 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @include phone {
+            flex-direction: column;
+        }
     }
 
     &__img {
         width: 9rem;
         height: 9rem;
+
+        @include phone {
+            margin-bottom: 1rem;
+        }
+        
     }
 }

@@ -12,6 +12,9 @@ body {
     align-items: center;
     width: 95%;
     margin: 0 auto; }
+    @media only screen and (max-width: 630px) {
+      .nav__content {
+        flex-direction: column; } }
   .nav__list {
     display: flex;
     list-style: none; }
@@ -30,8 +33,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: grey;
+  background-color: #201f1f;
   padding: 1rem 0; }
+  @media only screen and (max-width: 630px) {
+    .header__box {
+      flex-direction: column;
+      padding: 2rem 0; } }
   .header__box .header__icons i {
     color: white;
     font-size: 2rem;
@@ -42,6 +49,10 @@ body {
   border-radius: 10px;
   padding: .8rem 2rem; }
 
+@media only screen and (max-width: 630px) {
+  .header__form {
+    margin: 1.4rem 0; } }
+
 .header__buttons a {
   text-decoration: none;
   color: black;
@@ -49,6 +60,7 @@ body {
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.452)), url(/images/header-background.jpeg);
+  background-size: cover;
   height: 100vh;
   background-attachment: fixed; }
   .header__hero-content {
@@ -75,9 +87,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    @media only screen and (max-width: 630px) {
+      .about__content {
+        flex-direction: column; } }
   .about__img {
     width: 9rem;
     height: 9rem; }
+    @media only screen and (max-width: 630px) {
+      .about__img {
+        margin-bottom: 1rem; } }
 
 .categories {
   padding: 4rem 2rem; }
@@ -95,6 +113,9 @@ body {
 
 .row {
   display: flex; }
+  @media only screen and (max-width: 630px) {
+    .row {
+      flex-direction: column; } }
 
 .category {
   box-shadow: 2px 2px 4px black;
@@ -176,13 +197,19 @@ body {
   .reviews__content {
     display: flex;
     flex-wrap: wrap; }
+    @media only screen and (max-width: 630px) {
+      .reviews__content {
+        flex-direction: column; } }
 
 .review {
   border: 1px solid grey;
-  width: 40%;
+  width: 48%;
   padding: .7rem 1rem;
   margin: .5rem;
   box-sizing: border-box; }
+  @media only screen and (max-width: 630px) {
+    .review {
+      width: 100%; } }
   .review__user {
     display: flex;
     align-items: center; }
@@ -194,14 +221,23 @@ body {
   padding: 8rem 2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.438)), url(/images/shopping-background.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
   .products__content {
     display: flex;
     justify-content: space-around; }
+    @media only screen and (max-width: 630px) {
+      .products__content {
+        flex-direction: column;
+        align-items: center; } }
 
 .product {
   width: 25%;
   box-shadow: 2px 2px 4px black; }
+  @media only screen and (max-width: 630px) {
+    .product {
+      width: 80%;
+      margin: 1rem 0; } }
   .product__img--container {
     width: 100%;
     height: 12rem; }
@@ -247,13 +283,19 @@ body {
     padding: 4rem 2rem;
     box-shadow: 2px 2p 4px #000;
     border-radius: 5px; }
+    @media only screen and (max-width: 630px) {
+      .email__content {
+        padding: 2rem 0; } }
     .email__content--info {
-      width: 70%;
+      width: 40%;
       background-color: #fff;
       padding: 4rem 2rem;
       margin: 0 auto;
       box-shadow: 2px 2px 4px #000;
       border-radius: 5px; }
+      @media only screen and (max-width: 630px) {
+        .email__content--info {
+          padding: 2rem 0; } }
   .email__form {
     display: flex;
     flex-direction: column;
@@ -272,10 +314,14 @@ body {
   border-top: 1px solid black;
   display: flex;
   justify-content: space-around; }
+  @media only screen and (max-width: 630px) {
+    .footer {
+      flex-direction: column;
+      align-items: center; } }
   .footer__list {
     list-style: none; }
   .footer__item {
-    margin: .5rem; }
+    margin: .5rem 0; }
   .footer__link {
     text-decoration: none;
     color: #fff; }
@@ -322,8 +368,15 @@ body {
 .header__title {
   font-size: 3rem;
   color: white; }
+  @media only screen and (max-width: 630px) {
+    .header__title {
+      margin: 23rem 0 0 0;
+      font-size: 2rem; } }
 
 .email__title {
   color: #999;
   font-size: 2rem;
   text-align: center; }
+  @media only screen and (max-width: 630px) {
+    .email__title {
+      font-size: 1rem; } }

@@ -4,16 +4,27 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.438)), url(/images/shopping-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     &__content {
         display: flex;
         justify-content: space-around;
+
+        @include phone {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 
 .product {
     width: 25%;
     box-shadow: 2px 2px 4px black;
+
+    @include phone {
+        width: 80%;
+        margin: 1rem 0;
+    }
 
         &__img--container {
             width: 100%;

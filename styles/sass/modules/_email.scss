@@ -9,16 +9,24 @@
         padding: 4rem 2rem;
         box-shadow: 2px 2p 4px #000;
         border-radius: 5px;
-
-    &--info {
-            width: 70%;
+        
+        @include phone {
+            padding: 2rem 0;
+        }
+        
+        &--info {
+            width: 40%;
             background-color: #fff;
             padding: 4rem 2rem;
             margin: 0 auto;
             box-shadow: 2px 2px 4px #000;
             border-radius: 5px;
+
+            @include phone {
+                padding: 2rem 0;
+            }
+        }
     }
-}
 
     &__form {
             display: flex;
