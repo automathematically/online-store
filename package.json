@@ -1,0 +1,15 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "online store",
+  "main": "\u001b[A\u001b[B",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compiler": "node-sass styles/sass/style.scss styles/style.css -w"
+  },
+  "author": "MvL",
+  "license": "ISC"
+}

@@ -1,0 +1,39 @@
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.452)), url(/images/header-background.jpeg);
+    height: 100vh;
+    background-attachment: fixed;  
+
+    &__hero-content {
+        // background-color: blueviolet;
+        width: 50%;
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+ &__title {
+     font-size: 3rem;
+     color: white;
+ }
+
+ &__description {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 2.2rem;
+ }
+
+ &__link {
+     text-decoration: none;
+     background: white;
+     color: black;
+     padding: .7rem 1rem;
+     border-radius: 1px;
+ }
+
+
+}
+
