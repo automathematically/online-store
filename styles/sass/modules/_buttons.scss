@@ -1,0 +1,53 @@
+.header {
+    &__link {
+        text-decoration: none;
+        background: white;
+        color: black;
+        padding: .7rem 1rem;
+        border-radius: 1px;
+    }
+    
+    &__btn {
+           padding: .7rem 1rem;
+           border-radius: 2px;
+    }
+    
+    &__border {
+           border: 1px solid #fff;
+    }
+    
+    &__solid {
+           background-color: #fff;
+    }
+}
+
+.category {
+    &__btn {
+        text-decoration: none;
+        color: black;
+        background-color: orange;
+        padding: .5rem 1rem;
+    }
+}
+
+.history {
+    &__btn {
+        color: grey;
+        padding: .8rem 1rem;
+        text-decoration: none;
+        background-color: white;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 4px;
+    }
+}
+
+.email {
+    &__btn {
+        background-color: #fff;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+        border-radius: 10px;
+        padding: .7rem 1rem;
+        width: 10rem;
+        margin: 0 auto;
+    }
+}

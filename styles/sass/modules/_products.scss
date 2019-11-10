@@ -1,11 +1,15 @@
 .products {
 
     padding: 8rem 2rem;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.438)), url(/images/shopping-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     &__content {
         display: flex;
         justify-content: space-around;
     }
+}
 
 .product {
     width: 25%;
@@ -22,11 +26,15 @@
         }
 
         &__text {
-            padding: 0 1rem 1rem 1rem;
+            padding: 1rem 1rem 1rem 1rem;
+            background-color: #fff;
+            position: relative;
+
         }
 
         &__title {
             color: rgb(44, 44, 44);
+            margin: 0;
         }
 
         &__author {
@@ -48,5 +56,15 @@
         &__icon {
             color: rgb(90, 90, 2);
         }
+
+        &__btn {
+            color: red;
+            text-decoration: none;
+            padding: .7rem 1rem;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            border: 1px solid #000;
+        }
     }
-}

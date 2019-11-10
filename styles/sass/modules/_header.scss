@@ -15,25 +15,12 @@
         transform: translate(-50%,-50%);
     }
 
- &__title {
-     font-size: 3rem;
-     color: white;
- }
-
- &__description {
+    &__description {
     font-size: 1.3rem;
     color: white;
     margin-bottom: 2.2rem;
- }
+    }
 
- &__link {
-     text-decoration: none;
-     background: white;
-     color: black;
-     padding: .7rem 1rem;
-     border-radius: 1px;
- }
-
-
+ 
 }
 
